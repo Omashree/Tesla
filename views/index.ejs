@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/logo.png">
+    <title>Electric Cars, Solar &amp; Clean Energy | Tesla</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar show_sidebar">
+            <img src="/tesla.png" alt="tesla text image">
+            <div class="nav">
+                <div class="nav_option">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <p>Reports</p>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-bolt"></i>
+                    <p>Library</p>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>People</p>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-table-list"></i>
+                    <p>Activities</p>
+                </div>
+                <p>Support</p>
+                <div class="nav_option">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <p>Get Started</p>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-gear"></i>
+                    <p>Settings</p>
+                </div>
+            </div>
+            <div class="side_foot">
+                <hr>
+                <div class="side_foot_info">
+                    <img src="/Sam.jpg" alt="Sam Image">
+                    <p>Sam Wheeler</p>
+                    <a>samwheeler@example.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="main_context">
+            <div class="header">
+                <div class="menu">
+                    <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+                    <div class="main_text"><h2>Reports</h2></div>
+                </div>
+                <div class="download" onclick="window.location.href='/download'">
+                    <i class="fa-solid fa-download"></i>
+                    <p>Download</p>
+                </div>
+            </div>        
+            <div class="dropdown">
+                <div class="drop">
+                    <button class="drop-btn">Timeframe: <span id="selected-timeframe">All-time</span>
+                        <i class="fa-solid fa-sort-down"></i>
+                        <i class="fa-solid fa-sort-up"></i>
+                    </button>
+                    <div class="drop-content">
+                        <p onclick="setTimeframe('All-time')">All-time</p>
+                        <p onclick="setTimeframe('Last 7 Days')">Last 7 Days</p>
+                        <p onclick="setTimeframe('This Month')">This Month</p>
+                        <p onclick="setTimeframe('This Year')">This Year</p>
+                        <p onclick="setTimeframe('Custom')">Custom</p>
+                    </div>
+                </div>
+                <button class="dropdown-btn" id="dropdownBtn">
+                    <span id="selectedText">Select People & Groups</span>
+                    <i class="fa-solid fa-sort-down"></i>
+                    <button class="clear-btn" id="clearBtn" onclick="clearSelections()">Clear</button>
+                </button>
+                <div class="dropdown-content" id="dropdownContent">
+                    <div id="selectedItems"></div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="searchInput" placeholder="Search" onkeyup="filterOptions()">
+                    </div>
+                    <hr>
+                    <div class="group-option" id="groupsGroup">
+                        <strong>Groups</strong>
+                        <div>
+                            <input type="radio" id="All Users 100">
+                            <label for="All Users 100">
+                                <div class="option" data-type="group" data-name="All Users 100">All Users <span>100</span></div>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Managers 14">
+                            <label for="Managers 14">
+                                <div class="option" data-type="group" data-name="Managers 14">Managers <span>14</span></div>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Trainers 4">
+                            <label for="Trainers 4">
+                                <div class="option" data-type="group" data-name="Trainers 4">Trainers <span>4</span></div>
+                            </label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="group-option" id="peopleGroup">
+                        <strong>People</strong>
+                        <div>
+                            <input type="radio" id="Adrian Lu">
+                            <label for="Adrian Lu">
+                                <div class="option" data-type="person" data-name="Adrian Lu">Adrian Lu</div>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Evelyn Hamilton">
+                            <label for="Evelyn Hamilton">
+                                <div class="option" data-type="person" data-name="Evelyn Hamilton">Evelyn Hamilton</div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button class="dropdown-btn" id="dropdownBtn">
+                    <span id="selectedText">Topic: <b>All</b></span>
+                    <i class="fa-solid fa-sort-down"></i>
+                </button>
+            </div>
+            <div class="boxes">
+                <div class="metrics">
+                    <div class="metrics-box">
+                        <p class="text">Active Users</p>
+                        <h2><%=data.metrics.active_users.current%><span>/<%=data.metrics.active_users.total%></span></h2>
+                    </div>
+                    <div class="metrics-box">
+                        <p class="text">Questions Answered</p>
+                        <h2><%=data.metrics.questions_answered%></h2>
+                    </div>
+                    <div class="metrics-box">
+                        <p class="text">Av. Session Length</p>
+                        <h2><%=min%>m <%=sec%>s</h2>
+                    </div>
+                    <div class="metrics-box">
+                        <p class="text">Starting Knowledge</p>
+                        <h2><%=data.metrics.starting_knowledge_percentage%>%</h2>
+                        <img src="./Graph.png" alt="graph">
+                    </div>
+                    <div class="metrics-box">
+                        <p class="text">Current Knowledge</p>
+                        <h2><%=data.metrics.current_knowledge_percentage%>%</h2>
+                        <img src="./Graph.png" alt="graph">
+                    </div>
+                    <div class="metrics-box">
+                        <p class="text">Knowledge Gain</p>
+                        <h2>+<%=data.metrics.knowledge_gain_percentage%>%</h2>
+                        <img src="./Graph.png" alt="graph">
+                    </div>
+                </div>
+                <div class="box activity">
+                    <div class="activity-head">
+                        <p>Activity</p>
+                        <select name="month" id="month">
+                            <option value="">Month</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <div class="ranges-main">
+                        <div class="ranges-value">
+                            <div class="value">400</div>
+                            <div class="value">300</div>
+                            <div class="value">200</div>
+                            <div class="value">100</div>
+                            <div class="value">0</div>
+                        </div>
+                        <div class="ranges">
+                            <% for(let months of data.activity.monthly) { %>
+                            <div class="range">
+                                <input type="range" id="months" min="0" max="650" value="<%=months.value%>">
+                            </div>
+                            <% } %>
+                        </div>
+                    </div>
+                    <div class="ranges-labels">
+                        <% for(let months of data.activity.monthly) { %>
+                        <div class="label">
+                            <label for="months"><%=months.month%></label>
+                        </div>
+                        <% } %>
+                    </div>
+                </div>
+                <div class="box topics">
+                    <p class="topics-head">Weakest Topics</p>
+                    <div class="topics-info">
+                        <% for(let topic of data.topics.weakest) { %>
+                            <div class="data">
+                                <div class="image"><img src="<%=topic.image%>" alt="weakest topic image"></div>
+                                <div class="text">
+                                    <label for="text"><%=topic.name%></label>
+                                    <input type="range" id="text" min="0" max="100" value="<%=topic.correct_percentage%>">
+                                </div>
+                                <div><p><%=topic.correct_percentage%>% <span>Correct</span></p></div>
+                            </div>
+                        <% } %>
+                    </div>
+                </div>
+                <div class="box topics">
+                    <p class="topics-head">Strongest Topics</p>
+                    <div class="topics-info s">
+                        <% for(let topic of data.topics.strongest) { %>
+                            <div class="data">
+                                <div class="image"><img src="<%=topic.image%>" alt="weakest topic image"></div>
+                                <div class="s-text">
+                                    <label for="text"><%=topic.name%></label>
+                                    <input type="range" id="text" min="0" max="100" value="<%=topic.correct_percentage%>">
+                                </div>
+                                <div><p><%=topic.correct_percentage%>% <span>Correct</span></p></div>
+                            </div>
+                        <% } %>
+                    </div>
+                </div>
+                <div class="box user">
+                    <p class="user-head">User Leaderboard</p>
+                    <div class="user-info">
+                        <% for(let user of data.user_leaderboard) { %>
+                            <div class="data">
+                                <div class="image"><img src="<%=user.image%>" alt="user image"></div>
+                                <div class="text">
+                                    <p><%=user.name%></p>
+                                    <p class="percentage"><%=user.points%> Points - <%=user.accuracy_percentage%>% Correct</p>
+                                </div>
+                                <div class="arrow">
+                                    <p><%=data.user_leaderboard.indexOf(user) + 1%>
+                                        <% if(user.accuracy_percentage > user.previous_accuracy_percentage) { %>
+                                         <img src="./Up.png" alt="up">
+                                        <% } else { %>
+                                         <img src="./Down.png" alt="down">
+                                        <% } %>
+                                    </p>
+                                </div>
+                            </div>
+                        <% } %>
+                    </div>
+                </div>
+                <div class="box user">
+                    <p class="user-head">Groups Leaderboard</p>
+                    <div class="user-info">
+                        <% for(let user of data.groups_leaderboard) { %>
+                            <div class="g-data">
+                                <div class="g-text">
+                                    <p><%=user.group_name%></p>
+                                    <p class="percentage"><%=user.points_per_user%> Points / User - <%=user.accuracy_percentage%>% Correct</p>
+                                </div>
+                                <div class="arrow">
+                                    <p><%=data.groups_leaderboard.indexOf(user) + 1%>
+                                        <% if(user.accuracy_percentage > user.previous_accuracy_percentage) { %>
+                                         <img src="./Up.png" alt="up">
+                                        <% } else { %>
+                                         <img src="./Down.png" alt="down">
+                                        <% } %>
+                                    </p>
+                                </div>
+                            </div>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>  
+</body>
+</html>
