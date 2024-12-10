@@ -64,11 +64,10 @@
             </div>        
             <div class="dropdown">
                 <div class="drop">
-                    <button class="drop-btn">Timeframe: <span id="selected-timeframe">All-time</span>
-                        <i class="fa-solid fa-sort-down"></i>
-                        <i class="fa-solid fa-sort-up"></i>
+                    <button class="drop-btn" id="dropBtn">Timeframe: <span id="selected-timeframe">All-time</span>
+                        <i class="fa-solid fa-sort-down" id="i"></i>
                     </button>
-                    <div class="drop-content">
+                    <div class="drop-content" id="dropContent">
                         <p onclick="setTimeframe('All-time')">All-time</p>
                         <p onclick="setTimeframe('Last 7 Days')">Last 7 Days</p>
                         <p onclick="setTimeframe('This Month')">This Month</p>

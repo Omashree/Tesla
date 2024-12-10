@@ -117,7 +117,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 1;
     margin: 0 2.6rem;
@@ -240,30 +240,6 @@ body {
     cursor: pointer;
 }
 
-.drop-btn:hover {
-    border-radius: 1.25rem 1.25rem 0 0;
-}
-
-.drop:hover .drop-content {
-    display: block;
-}
-
-.drop:hover .drop-btn {
-    border-radius: 1.25rem 1.25rem 0 0;
-}
-
-.drop .fa-sort-up {
-    display: none;
-}
-
-.drop:hover .fa-sort-down {
-    display: none;
-}
-
-.drop:hover .fa-sort-up {
-    display: block;
-}
-
 .dropdown-btn {
     height: 3rem;
     width: 22.8rem;
@@ -278,6 +254,10 @@ body {
     display: flex;
     align-items: center;
     box-shadow: 0 0.3rem 1.25rem #dfdede;
+}
+
+.radius {
+    border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .dropdown-btn span {
@@ -709,13 +689,6 @@ input:focus {
     .side_foot {
         display: none;
     }
-    
-    .boxes {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, auto);
-        grid-gap: 1rem;
-        max-width: 100%;
-    }
 
     .dropdown {
         display: flex;
@@ -754,6 +727,13 @@ input:focus {
     .clear-btn {
         position: absolute;
         top: 4.8rem;
-        left: 32rem;
+        left: 31rem;
+    }
+
+    .boxes {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        grid-gap: 1rem;
+        max-width: 100%;
     }
 }

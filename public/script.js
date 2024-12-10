@@ -11,6 +11,20 @@ menu_toggle.addEventListener("click", () => {
     }
 })
 
+document.getElementById("dropBtn").addEventListener("click", () => {
+    const dropContent = document.getElementById("dropContent");
+    const dropBtn = document.getElementById("dropBtn");
+    const i = document.getElementById("i");
+    dropBtn.classList.toggle("radius");
+    dropContent.style.display = dropContent.style.display === "block" ? "none" : "block";
+    dropContent.style.borderRadius = "0 0 1.25rem 1.25rem";
+    if(i.classList.contains("fa-sort-down")) {
+        i.classList.replace("fa-sort-down","fa-sort-up");
+    } else {
+        i.classList.replace("fa-sort-up","fa-sort-down");
+    }
+});
+
 function setTimeframe(timeframe) {
     const selectedTimeframeElement = document.getElementById("selected-timeframe");
     selectedTimeframeElement.textContent = timeframe;
@@ -27,7 +41,7 @@ function toggleDropdown() {
     const dropdownContent = document.getElementById("dropdownContent");
     const dropdownBtn = document.getElementById("dropdownBtn");
     const clearBtn = document.getElementById("clearBtn");
-    dropdownBtn.style.borderRadius = "1.25rem 1.25rem 0 0";
+    dropdownBtn.classList.toggle("radius");
     clearBtn.style.display = clearBtn.style.display === "block" ? "none" : "block";
     dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
     dropdownContent.style.borderRadius = "0 0 1.25rem 1.25rem";
