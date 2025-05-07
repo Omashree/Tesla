@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const axios = require('axios');
 const path = require("path");
-const port = 8080;
+const port = 10000 || 8080;
 const data = require("./task-data.json");
 
 app.set("view engine", "ejs");
@@ -24,7 +24,7 @@ app.get('/download', async (req, res) => {
 
         let response;
         try {
-            response = await axios.post('http://localhost:3000/download-image', {},
+            response = await axios.post('https://image-api-cwy0.onrender.com/download-image', {},
                 {
                     headers: {
                         'x-api-key': apiSecret
