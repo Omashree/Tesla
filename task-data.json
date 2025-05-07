@@ -51,59 +51,59 @@
     "topics":{
         "weakest":[{
             "name":"Food Safety",
-            "image":"https://s3-alpha-sig.figma.com/img/624a/d644/63c067ab056d7e241196df09aa8bf3c8?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YcdQc7V7P0A6Um9beCrr9HPmOLAuY7yBwnPuxyVcXNMLZlPQTXf23jfTQ99xOIHknrtkJtxBqIH5PYTo7twbKGWPJ~yslHNQTAGMZ3ttAarLy2nPTFUt~xSohJVvCO8k6pcIKTFPlZdH1-ehpe6v-NBB4CHHXhNzXTxGgVRcEWDPfzoVFIIIkuf6MSldl3RnL7j3t2ZJToImHJuB9n~1hAFYoGTAfUcv2El00UpjJHegDT0FBqaDc3EE3XSEOJX0hKazfI8BugBg4LeTazU0ew2pPmf9aQYAWnubCSMOiUtJiuRRqsj5J-GMsna5FDMtKe92q9LWcFSvZ0i10J3~~w__",
+            "image":"https://images.unsplash.com/photo-1557844352-761f2565b576?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "correct_percentage":74
         },
         {
             "name":"Compliance Basics Procedures",
-            "image":"https://s3-alpha-sig.figma.com/img/861e/0763/c5dcf7a222ebf1297b4a0fc7e3bc72fb?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V1IdqOCIN~xpLrJiwpy0UEx5ZVchs08rfjiRmnjR1JzKF25QoR9CbrbQS~Q5vr5InH~kZKndNGr9~qPLkqpz21XmEg7GwNlAaXRu0E8Ky-uKixvESeX7H26g4vzH~EABK~GES3zqBP~go7JedL2BJcyAG3BqPJ~yYgyOn7XzR0yFX47riJuyo6-4aJE4FCA4j1NJBJhU7da6CbBme0G3ITvZZ3KGsTkw8eWwojYIjErt2819Tz6gN~AoLhsvLuDQfDT6NAhqLCacah4lrU3~WvX6jo6FyyvtcBBer0qqIaZ2~88nFSbjXsLAVRe9K7pAYRK3FtdzquEUKrRZGyQ78A__",
+            "image":"https://plus.unsplash.com/premium_photo-1681074963633-0e91aa0676ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "correct_percentage":52
         },
         {
             "name":"Company Networking",
-            "image":"https://s3-alpha-sig.figma.com/img/3b34/ff15/0d8271291efd4b781b6d606762a075b6?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ArcwMSN1PMkwXk3K-fJ9OV4euABVnm52Rg2HyyFsqoAl4gx6jV6cAFd3n4QiGg1irRbij6~VCZbPu2z4TJ0yRz~x4pT~5nuIJQV5Wrnfc6P0y1s-Vyd7jlpZHgVfiZZmV9B7BMAA~xZHwzcWNX-O~v2DBGCgUYF42PUbRYnXSJvQnm-JMFtWccpJomgkNwUQcoh3xyPceRZTe5bVbSWjLEBOYhcIIt0MhrbbAORRd43M8bjotaWVTJiSjeH5N0yYw-NriyHOqx0bZjZEy4UPu1SqOCkdWeklnW3iHn46Jbs9ksmDBLyuWsgVftQOtmNMC2NuckxiaNX2kYMasYEmOA__",
+            "image":"https://images.unsplash.com/photo-1561489413-985b06da5bee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "correct_percentage":36
         }],
         "strongest":[{
             "name":"Covid Protocols",
-            "image":"https://s3-alpha-sig.figma.com/img/28df/08c6/10a0cc2f8ee5f870bc054611fb512e31?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X5jOKqx5Tl1D3jihfoIUD71agXOQHF5SheSDIjXrkCUFCcBOyjSCLEbsBRD-6fH8N2mB8UPYWpZ0gg9nP2sulfxPiYQs7kCb8zaq1TCBAOdywjAxuptgsV~nVF~zGQGBV9n14Xyx~vnFCIJhizqmZGaSdf4YZQCqVHvFv~5o~vVTEyMe89a4jf-K~NUSBOhUyeYRbEC0ZJavrsFKOjvdsjogRZRP4C4pE-taeNt4bML05byozxg0mz6ODzNZMgHRE-OvdnM5L6s7HdxMhRD6WLbA7lX2KNJrGSEdNc2ijjLowIV1OlM8a-QpnOqJ-lNsAzQTPHGF0hRo12gItQ--HQ__",
+            "image":"https://images.unsplash.com/photo-1605289982774-9a6fef564df8?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "correct_percentage":95
         },
         {
             "name":"Cyber Security Basics",
-            "image":"https://s3-alpha-sig.figma.com/img/cd45/83d9/09b6839d76e8865bfd7b348337d86595?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AIU3viANirRTYtZ-BIQPGpBBQYgRLL3rF9iF44XOOLjbzGRLQqbkEp7tV-kVcBxRtFH5Z~Br1vt8W-kZt6GadufabUVQj5-jB~~580U02tyKP0n2yAAjeU5-sIlE4-dh0A2aq9NLTbZSPofvjklo8t6xTYIq~e5iPG1Wsgyjso0Sji9KbO7KI4pzoinexLpuSY6tIrmV8wZd0jsRQpQ1IfPNYog~hJ88YDc5l2mkl2uozV3k9OSyRXK8dUOTd8rvpihPsgUsEEP7IcaqUkJz3M8qitQ7oZNKWW2blfWIJzFFVAoSt01A-QjQqYxz3rr06yn0OtyWUmtll~h2UcvMtw__",
+            "image":"https://plus.unsplash.com/premium_photo-1677093906053-037cef85dba4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ5fHxjeWJlciUyMHNlY3VyaXR5fGVufDB8fDB8fHww",
             "correct_percentage":92
         },
         {
             "name":"Social Media Policies",
-            "image":"https://s3-alpha-sig.figma.com/img/9dd1/c767/a4de54a902207628c9e39d30f2c4b6ea?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L9yK8z9WokOxufcCTpDN5ZBT03uYU3UeUvByYxD4Uvjw3ntK7bqvPcwBwEm-9rTbr5kSUxDgNfXacpmwY~2vK~Fx9i2Kza2SR5oigns3zbpDVI0Y~E0Sledai7O5yu3lZskEkg10UrWFliqpphQjgLw3hOI3U9uGH6rRWL5la4ITH19GCx6U-kl5CJ4QYuAqO4WAA50KKUJaR3KvX3ilJprHguXVL7L3Ee3X9ciNNZQG7QZvPPDlnDwWj94C7lSrJAzygVZ-DU26xEZJN4E6VtnUOWCctJxCgSowpnJCewfk9~UQdlMce~wSc3oC4owk~BLRi2MDr91QWowXwW98iQ__",
+            "image":"https://images.unsplash.com/photo-1683721003111-070bcc053d8b?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "correct_percentage":89
         }]
     },
     "user_leaderboard":[{
         "name":"Jesse Thomas",
-        "image":"https://s3-alpha-sig.figma.com/img/1f61/ca60/cbc85c23d3705e0ea9b22359ff9489cc?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IG7yWuuco6bV7WyxoD-cPzSEXxIoMl9KUurFZxLgmkGEoA5XPZQforhIEYcLO8PgHyyhaRnLAHMrZvJlbJHqqF23iQtfTvzEOczGRTKqcJwQ5J62NAjG~M4gDZmEbOu8Vx3X02roNcSzXW1UYzvcRtTsea0dwSXI91LE~d~H5WgPcJrVdxt0qAiqobuhDPCjQ0skC-2Xa6cwpq7FO59tSMBlKu51sLuQMh8ziUVv60Lxx3pizkkft4Il5PkWTKYSVhi~4Vu4j74SovvreyNctFGUxO1jsqBEuHzzEoZqyyioRY0Xjs8e~AdKRCoWnr6L7zJGN7zCK-C7gf7QT3EEQw__",
+        "image":"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "points":637,
         "accuracy_percentage":98,
         "previous_accuracy_percentage":92
     },
     {
         "name":"Thisal Mathiyazhagan",
-        "image":"https://s3-alpha-sig.figma.com/img/faf3/6f25/163f518faa20531e063e204fb6523ff2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pRCVsv~FIZH9YRjs1j~kBOn-y1zbwuaKKyAxLx0cWkral~5A~C-WrnAnvCu6Xv05PMrPViaRfzJ9QqHI1Z4DT61FfiqjOOaWtdibArBNNCXja2yVCTsNh8iC2YKDEpLENhk6rGHPinssuB7-WeKob6UIMYp3-wqYTVdSebFZbYma6cDw8QZ6b819Qncu5KiPiYW1lEuZ-~-JOwDbBxMw0FLGhXpDgVBqC9MIb2xSvShuOL~oBubdG-Vur8lRHAVUfE~LK-GAi-ESLXmh-za1qd7OxxxpBelVj4defknM5fQehXJtoHdInaPrHD~UJqImK8TmAYcv1mkgiBQfHE7Seg__",
+        "image":"https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "points":637,
         "accuracy_percentage":89,
         "previous_accuracy_percentage":94
     },
     {
         "name":"Helen Chuang",
-        "image":"https://s3-alpha-sig.figma.com/img/fe52/9088/1abc6eca20bb4c1c6f26d0a572d52c55?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PL0~4VB6jgyyX2Qd9cHsr9A~sKFO0-G98BaIa-IIBLVtM1~VEqbJoBrtSgjVyEXRfFFCwsljWvYBMilWM61j5ED5q5ypBOBEuQA5EpKokx2BoFCzFydbU~l8c7TwpNWwNuIyJd3qhtXp2ZpuuVcLDNBtuIj0pVC10WEnLPQZltB9iK7BaQuDnBfqw4dUtHk7Pzae~BpPT9RbfltHBHiEA5y3164qFw3YA5Q7E9xDprE4Z7YRufyrlmpGZUKkH1-uv88ZUKEyuLDsH1K~GgiPkXQZM-w27SYgT~ITws4ZvzMUSUfbkmv784r6RVFSzgqUsCrzrVE0-mRUweU7EBWN-g__",
+        "image":"https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "points":637,
         "accuracy_percentage":88,
         "previous_accuracy_percentage":83
     },
     {
         "name":"Lura Silverman",
-        "image":"https://s3-alpha-sig.figma.com/img/647a/139c/39244d38916bce4bc4562db8533e3714?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EosgnRHFtDY31IuavG~vyLocNZH36-VfGpsQyqe4ju5REkFsEdIPUf49iiaZWlMiaSMyG9u7neFAK1Jv3PQPqaYCJ6JNiTnzQfwXGNJjx8hztnMiGlkwe59QyRaxvrMxO804qkMyPiIKFIAYTR3ulgBd-Z-i9-yqwZ48e3RGOoqqc5zw17vtDUW3iYCAaC9gd-UKbYAJ4FbQLYLc6ethG~G2-XrGPDiV5jzlD73lKcPvZBmJ0gaYJ7MD4CjRCbKm3YIhVFFXs9OaOmpnhPq-IBh0NE8TXFXYq7calPaARHaNC2VZdY29hQo-mZbpKZUA2x~yeJ1aSshGQKaOwxU4tQ__",
+        "image":"https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "points":637,
         "accuracy_percentage":86,
         "previous_accuracy_percentage":80

@@ -24,13 +24,21 @@ app.get('/download', async (req, res) => {
 
         let response;
         try {
-            response = await axios.post('https://testd5-img.azurewebsites.net/api/imgdownload', {
-            api: apiSecret
-            });
+            response = await axios.post('http://localhost:3000/download-image', {},
+                {
+                    headers: {
+                        'x-api-key': apiSecret
+                    }
+                    // ,
+                    // responseType: 'arraybuffer'
+                }
+            );
         } catch (err) {
             console.error('Error with the POST request:', err.response ? err.response.data : err.message);
             return res.status(500).json({ error: 'Error occurred while contacting the image API' });
         }
+
+    //     const imageBuffer = Buffer.from(response.data, 'binary');
     
         const base64Image = response.data.base64_string;
         if (!base64Image) {
