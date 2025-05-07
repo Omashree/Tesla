@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const axios = require('axios');
 const path = require("path");
-const port = 10000 || 8080;
+const port = 8080;
 const data = require("./task-data.json");
 
 app.set("view engine", "ejs");
